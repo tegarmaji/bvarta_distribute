@@ -1,0 +1,6 @@
+paths:
+  input:  "data/raw/events/day_*.jsonl"
+  users:  "data/reference/users.csv"
+  bronze: "output/bronze"
+  silver: "output/silver"
+  gold:   "output/gold"
