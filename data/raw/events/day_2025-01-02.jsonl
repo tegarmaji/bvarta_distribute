@@ -1,0 +1,8 @@
+{"event_id":"e10","user_id":"u1","event_type":"CLICK","event_ts":"2025-01-02T09:00:00Z","value":1}
+{"event_id":"e11","user_id":"u2","event_type":"VIEW","event_ts":"2025-01-02T09:10:00Z","value":2}
+{"event_id":"e12","user_id":"u1","event_type":"PURCHASE","event_ts":"2025-01-02T09:30:00Z","value":20}
+{"event_id":"e3","user_id":"u1","event_type":"PURCHASE","event_ts":"2025-01-01T10:10:00Z","value":25}
+{"event_id":"e13","user_id":"u2","event_type":"VIEW","event_ts":"2024-12-31T23:50:00Z","value":1}
+{"event_id":"e14","user_id":"","event_type":"CLICK","event_ts":"2025-01-02T10:00:00Z","value":1}
+{"event_id":"e15","user_id":"u1","event_type":null,"event_ts":"2025-01-02T10:05:00Z","value":3}
+{"event_id":"e16","user_id":"u1","event_type":"PURCHASE","event_ts":"2025-13-01T00:00:00Z","value":5}
