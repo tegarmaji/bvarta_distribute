@@ -1,0 +1,5 @@
+user_id,country,signup_date
+u1,ID,2024-12-01
+u2,US,2024-12-15
+u3,SG,invalid_date
+u4,,2024-11-01
