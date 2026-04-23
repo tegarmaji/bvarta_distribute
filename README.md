@@ -6,14 +6,18 @@ Follows the **Bronze → Silver → Gold** (Medallion) pattern.
 
 ## Project Structure
 ```
-pipeline.py          # Main pipeline (all logic lives here)
-config.yaml          # Path configuration
-data/reference/users.csv   # User reference data
+**Original Files** :
+pipeline.py                  # Main pipeline (all logic lives here)
+pipeline_github.py           # Execute the project using Google Colab : https://colab.research.google.com/drive/1DegUDNRH-dHvmsJuselQKkzAf8yxnh3V?usp=sharing
+config.yaml                  # Path configuration
+data/reference/users.csv     # User reference data
 data/raw/events/day*.jsonl   # Raw event file
-output/bronze/clean/ # output parquet for all valid events
-output/bronze/quarantine/ # output rejected records
-output/silver/ # output parquet Enriched events from Bronze
-output/gold/   # output parquet aggregated by event_date & country
+
+**Generated Files after execution**:
+output/bronze/clean/        # output parquet for valid events
+output/bronze/quarantine/   # output parquet rejected records
+output/silver/              # output parquet Enriched events from Bronze
+output/gold/                # output parquet aggregated by event_date & country
 ```
 
 ## Prerequisites
